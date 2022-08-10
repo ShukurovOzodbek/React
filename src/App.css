@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color:#C8B8A9;
+  display: flex;
+}
+
+.hel {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  width: 45%;
+  min-height: 400px;
+  left: 27%;
+  top: 30%;
+}
+.img {
+  width: 169px;
+  background-color: #d6a779;
+  height: 188px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+  width: 440px;
+  border-radius: 4px;
+  border: 1px solid rgb(176, 172, 172);
+  padding-left: 75px;
+  outline: none;
+  font-size: 24px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#inp2{
+  padding-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 23px;
+}
+
+button {
+  border-radius: 100px;
+  padding: 15px;
+  border: none;
+  background-color: #f18024;
+  border-color: #f18024;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 19px 29px 0px;
+  width: 160px;
+  padding: 15px;
+  margin-top: 15px;
+}
+button:hover {
+  color: #fff;
+  background-color: #de6b0e;
+  border-color: #de6b0e;
+}
+code{
+  color: red;
+}
+.code {
+  position: absolute;
+  border-right: 1px solid rgb(176, 172, 172);
+  font-size: 16px;
+  padding: 14px;
+  top: 135px;
+  padding-top: 17px;
+}
+label {
+  transform: translate(7px, 21px);
+  background: white;
+  width: 63px;
+  color: rgb(154, 154, 154);
+}
+#one {
+  width: 50px;
+}
+.form{
+  gap: 10px;
+}
+input[type=number]::-webkit-inner-spin-button{
+  display: none;
+}
+.lang {
+  display: flex;
+  gap: 6px;
+  transform: translate(316px, -30px);
+}
+.one{
+  font-weight: 300;
+}
+.one:hover{
+  color: orange;
+  cursor: pointer;
+}
+.line{
+  height: 20px;
+  border-left: 1px solid grey;
+}
+.image {
+  width: 690px;
+  height: 180px;
+  position: absolute;
+  left: 27%;
+  border-radius: 10px;
+  margin-top: 20px;
+  object-fit: cover;
+}
